@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.row-1 {
+			display: flex;
+			margin: 10px;
+			padding: 5px;
+		}
+
+		.box-1 {
+			background-color: #FA8072;
+			text-align: center;
+			margin: 5px;
+		}
+         .box-1 .h1 {
+         	font-size: 34px;
+         	margin-bottom: 0px;
+         }
+
+         .box-1 .pp1 {
+         	font-size: 18px;
+         	font-family: sans-serif;
+         	padding-left: 10px;
+         	padding-right: 10px;
+         	text-align: left;
+
+         }
+		.box-2 {
+			background-color: #48C9B0;
+			text-align: center;
+			margin: 5px;
+		}
+
+		.box-3 {
+			background-color: #F39C12 ;
+			text-align: center;
+			margin: 5px;
+		}
+
+		button {
+			width: 150px;
+			height: 40px;
+			margin-bottom: 20px;
+			background-color: #9B59B6;
+			border: none;
+			color: white;
+			font-size: 16px;
+			border-radius: 4%;
+		}
+
+		button:hover{
+			background-color: #B3B6B7 ;
+		}
+
+		@media (max-width: 560px) {
+			.row-1 {
+				display: inline;
+			}
+		}
+
+	</style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" class="myCheckBox" id="myCheck">
+        <label for="myCheck" class="checkButton">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Navbar<span style="color:#f7c324">X</span></label>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Subscribe</a></li>
+        </ul>
+    </nav>
+
+	<!-- 1 row three column -->
+	<div class="row-1">
+		<div class="box-1">
+			<h2 class="h1">Breaking News</h2>
+			<p class="pp1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<button>Read more!</button>
+		</div>
+		<div class="box-2">
+				<h2>Breaking News</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="box-3">
+				<h2>Breaking News</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+</body>
+</html>
